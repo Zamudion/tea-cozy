@@ -1,0 +1,50 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+* {
+    border: .5px solid gray;
+}
+
+
+#logo-img {
+    height: 50px;
+    display: inline-flex;
+    margin-left: 10px;
+    flex-grow: 1;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 69px;
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    
+} 
+
+.nav {
+    display: inline-flex; 
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+li {
+    list-style: none;
+    margin: auto 10px;
+}
+
+
+.nav .nav-box {
+    display: inline;
+    text-decoration: underline;
+}
